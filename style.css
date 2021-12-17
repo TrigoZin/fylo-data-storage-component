@@ -12,7 +12,7 @@ main {
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
     /*mobile*/
-    background: center / cover no-repeat url("../images/bg-mobile.png");
+    background: center / cover no-repeat url("images/bg-mobile.png");
     flex-direction: column;
 
     --gauge-completion: 81.5%;
@@ -42,7 +42,7 @@ strong {
     margin-bottom: 1.25em;
     height: 2.5em;
     width: auto;
-    background: center left / contain no-repeat url("../images/logo.svg");
+    background: center left / contain no-repeat url("images/logo.svg");
 }
 
 .menu__icon-container {
@@ -58,15 +58,15 @@ strong {
 }
 
 .menu__icon--file {
-    background: center / 50% no-repeat url("../images/icon-document.svg"), hsl(229, 57%, 11%);
+    background: center / 50% no-repeat url("images/icon-document.svg"), hsl(229, 57%, 11%);
 }
 
 .menu__icon--folder {
-    background: center / 50% no-repeat url("../images/icon-folder.svg"), hsl(229, 57%, 11%);
+    background: center / 50% no-repeat url("images/icon-folder.svg"), hsl(229, 57%, 11%);
 }
 
 .menu__icon--upload {
-    background: center / 50% no-repeat url("../images/icon-upload.svg"), hsl(229, 57%, 11%);
+    background: center / 50% no-repeat url("images/icon-upload.svg"), hsl(229, 57%, 11%);
 }
 
 .storage-state {
@@ -140,7 +140,7 @@ strong {
 
 @media screen and (min-width : 1050px) {
     main {
-        background: center / cover no-repeat url("../images/bg-desktop.png");
+        background: center / cover no-repeat url("images/bg-desktop.png");
         flex-direction: row;
         justify-content: center;
         padding: 10em;
